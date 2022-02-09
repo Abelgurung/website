@@ -1,0 +1,39 @@
+.navboxx {
+  background-color: #000;
+  color: #fff;
+  padding: 0 105px;
+  padding-top: 30px;
+}
+.linkbox {
+  padding-top: 4px;
+}
+.navlogo {
+  width: 170px;
+  cursor: pointer;
+}
+.alink {
+  text-decoration: none;
+  color: #fff;
+  font-family: var(--ffamily1);
+  font-style: italic;
+  font-size: 8px;
+  padding: 8px;
+  margin: 10px;
+  font-weight: 600;
+}
+.iconlinkbox {
+  padding-left: 30px;
+}
+@media only screen and (max-width: 450px) {
+  .navboxx {
+    justify-content: space-between;
+    padding: 0 30px;
+    padding-top: 30px;
+  }
+  .navpagelink {
+    display: none;
+  }
+  .responsivenav {
+    display: block;
+  }
+}

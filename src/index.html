@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bored App 0-01</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Kritesh Thapa">
+    <script src="https://kit.fontawesome.com/5045e83b56.js"></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <style>
+      .mainbody {
+        height: 5000px;
+        background-color: #000;
+        color: #fff;
+        padding-top:25px;
+      }
+      .room1{
+        padding:0 100px;
+        width:100%;
+        z-index: 1;
+      }
+      .landing_logo{height:78px;}
+      .link0{
+        margin:0 10px;
+        padding-top:16px;
+      }
+      .linkicon{
+        font-size:15px;
+      }
+      .room2{
+        padding:0 105px;
+        margin-top:-43px;
+        width:100%;
+      }
+      .enterbtnboxA{
+        bottom:0;
+        background-color: #000;
+        padding-top: 24px;
+      }
+      .eboxA1txt1{
+        font-family: var(--ffamily1);
+        font-style: italic;
+        font-weight: 800;
+        font-size: 27px;
+        padding-bottom: 16px;
+        padding-right:50px;
+      }
+      .eboxA2 {
+        writing-mode: vertical-rl;
+        text-orientation: mixed;
+        transform: rotateZ(180deg);
+        font-size: 11px;
+        font-weight: 700;
+        text-align: center;
+        padding: 40px;
+        animation: animatetext2 1.5s infinite;
+      }
+      @keyframes animatetext2 {
+        0% {
+          opacity: 1;
+        }
+        45% {
+          opacity: 0.25;
+        }
+        65% {
+          opacity: 0.25;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+      .enterbtnA {
+        padding: 14px;
+        margin-bottom: 24px;
+        background-color: #bfc500;
+        color: #000;
+        border-radius: 8px;
+        font-weight: 700;
+        font-size: 16px;
+        text-align: center;
+      }
+      @media only screen and (max-width: 450px) {
+        .enterbtnboxA{
+          display:none;
+        }
+      }
+      
+    </style>
+  </head>
+  <body>
+    <div class="mainbody flex fdc borderx">
+      <div class="room1 borderr flex jcsb jcc">
+        <div class="r1box1 r1box0 flex  opa0 borderx">
+          <div class="link1 link0 border3">
+            <i class="fab fa-youtube"></i>
+          </div>
+          <div class="link2 link0 border3">
+            <i class="fab fa-instagram"></i>
+          </div>
+          <div class="link3 link0 border3">
+            <i class="fab fa-discord"></i>
+          </div>
+          <div class="link4 link0 border3">
+            <i class="fab fa-twitter"></i>
+          </div>
+        </div>
+        <div class="r1box2 r1box0 borderw">
+          <img src="image/bayc-logo.png" alt="" class="landing_logo">
+        </div>
+        <div class="r1box3 r1box0 borderx flex">
+          <div class="link1 link0 borderx">
+            <i class="fab fa-youtube linkicon"></i>
+          </div>
+          <div class="link2 link0 borderx">
+            <i class="fab fa-instagram linkicon"></i>
+          </div>
+          <div class="link3 link0 borderx">
+            <i class="fab fa-discord linkicon"></i>
+          </div>
+          <div class="link4 link0 borderx">
+            <i class="fab fa-twitter linkicon"></i>
+          </div>
+        </div>
+      </div>
+      <div class="room2 borderr flex rel">
+        <video autoplay class="ins">
+          <source src="image/club-landing.mp4" type="video/mp4">
+        </video>
+        <div class="enterbtnboxA borderx abs flex">
+          <div class="eboxA1 borderx">
+            <div class="eboxA1txt1 borderx">
+              WELCOME TO<br/>
+              THE BORED APE<br/>
+              YACHT CLUB
+            </div>
+            <div class="enterbtnA">ENTER</div>
+          </div>
+          <div class="eboxA2 borderx">
+            ← SCROLL DOWN
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/script.js"></script>
+    <script>
+      //var inrgmblock = document.querySelector(".inrgmblock");
+      //var inrgmblock = document.querySelectorAll(".inrgmblock");
+    </script>
+    <script>
+      //var inrgmblock = document.querySelector(".inrgmblock");
+      //var inrgmblock = document.querySelectorAll(".inrgmblock");
+      // function boxgenerator(){
+      // boxx1[widthx1] = document.createElement('div');
+      // boxx1[widthx1].textContent = widthx2+1;
+      // boxx1[widthx1].style.height = "25px";
+      // boxx1[widthx1].style.width = "25px";
+      // boxx1[widthx1].style.border = "1px solid #000";
+      // boxx1[widthx1].style.display = "inline-block";
+      // boxx1[widthx1].style.position = "absolute";
+      // boxx1[widthx1].style.top = (heightx1-1)*25 + "px";
+      // boxx1[widthx1].style.left = widthx1*25 + "px";
+      // boxx1[widthx1].setAttribute('class', 'boxbtn');
+      // boxgenerator.appendChild(boxx1[widthx1]);
+      // }
+      // document.addEventListener('keydown',function(event){
+      //   if(event.keyCode == 65){//A
+      //   }
+      //   else if(event.keyCode == 68){//D
+      //   }
+      //   else if(event.keyCode == 75){//K
+      //   }
+      //   else if(event.keyCode == 76){//L
+      //   }
+      // });
+      // Math.random() * (max - min) + min;
+      // b = Math.floor(Math.random()*(8-2)+2);
+    </script>
+  </body>
+</html>
