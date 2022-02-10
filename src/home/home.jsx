@@ -19,6 +19,8 @@ import item4 from "../image/icon4.png";
 import item5 from "../image/icon5.png";
 import toilet from "../image/toilet.png";
 import shirt from "../image/shirt.png";
+import App from "./mint/mint"
+import Counter from "./mint/counter"
 const Home = ({goLanding1}) => {
   const hr2apes = [
     {id:1,name:Ape1},
@@ -123,6 +125,9 @@ const Home = ({goLanding1}) => {
           <div className="hr6txt1 border">
             THE SPECS
           </div>
+          <div>
+            <Counter/>
+          </div>
           <div className="hr6txt2 border">
             Each Bored Ape is unique and programmatically generated from over 170 possible traits,
             including expression, headwear, clothing, and more. All apes are dope, but some are rarer than others.
@@ -175,8 +180,11 @@ const Home = ({goLanding1}) => {
       </div>
       <div className="hroom8 border flex jcsb">
         <div className="hr8box1 flex fdc border">
-          <div className="hr8b1txt1">
-            THE BATHROOM
+          <div id="mint" className="hr8b1txt1">
+            MINT
+          </div>
+          <div>
+            <App/>
           </div>
           <div className="hr8b1txt2">
             The BAYC Bathroom will become operational once the presale period is over. 
@@ -200,7 +208,7 @@ const Home = ({goLanding1}) => {
         <span className="hr5line_3 hr5line"></span>
       </div>
       <div className="hroom9 border flex fdc">
-        <div className="hr9txt1 border">
+        <div id="roadmap" className="hr9txt1 border">
           ROADMAP ACTIVATIONS
         </div>
         <div className="hr9txt2 border">
@@ -232,35 +240,12 @@ const Home = ({goLanding1}) => {
           </div>
         </div>
       </div>
-      <div className="hroom5_4 hroom5 border flex">
-        <span className="hr5line_4 hr5line"></span>
-      </div>
-      <div className="hroom11 border flex jcsb">
-        <div className="hr11box1 border">
-          <div className="hr11txt1 border">
-            COMMUNITY TOOLS
-          </div>
-          <div className="hr11txt2 border">
-            Here are some helpful tools created by the Bored Ape Yacht Club community. 
-            Please note that these are unofficial in nature. Every assignment of an ape's
-            overall value or rarity is inherently subjective.
-          </div>
-        </div>
-        <div className="hr11box2 flex fdc border">
-          <a href="#" className="h11btnbox1 h11btnbox0">
-            NFTEXP.IO
-          </a>
-          <a href="#" className="h11btnbox2 h11btnbox0">
-            RARITY.TOOLS
-          </a>
-        </div>
-      </div>
       <div className="hroom5_5 hroom5 border flex">
         <span className="hr5line_5 hr5line"></span>
       </div>
       <div className="hroom12 border flex">
         <div className="hr12box1 border flex fdc">
-          <div className="hr12txt1">
+          <div id="team" className="hr12txt1">
             THE TEAM
           </div>
           <div className="hr12txt2">
@@ -293,7 +278,7 @@ const Home = ({goLanding1}) => {
         <div className="hr13box1 border">
           VERIFIED SMART CONTRACT ADDRESS:&nbsp;
         </div>
-        <a href="#" className='hr13link border'> 0xBC4CA0EdA7647A8aB7C2061c2E118A18a936f13D</a>
+        <a href="https://etherscan.io/token/0x14e0a1F310E2B7E321c91f58847e98b8C802f6eF" className='hr13link border'> 0xBC4CA0EdA7647A8aB7C2061c2E118A18a936f13D</a>
       </div>
       <div className="hroom5 hroom5_6 border flex">
         <span className="hr5line hr5line_6"></span>

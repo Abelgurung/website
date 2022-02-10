@@ -6,9 +6,9 @@
     "SYMBOL": "ETH",
     "ID": 3
   },
-  "NFT_NAME": "Nerdy Coder Clones",
-  "SYMBOL": "NCC",
-  "MAX_SUPPLY": 1000,
+  "NFT_NAME": "NFT",
+  "SYMBOL": "Symbol",
+  "MAX_SUPPLY": 20000,
   "WEI_COST": 100000000000000000,
   "DISPLAY_COST": 0.1,
   "GAS_LIMIT": 285000,

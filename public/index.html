@@ -8,26 +8,110 @@
     <meta name="theme-color" content="#000000" />
     <link rel="stylesheet" href="%PUBLIC_URL%/config/theme.css" />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
+    <script src="https://kit.fontawesome.com/5045e83b56.js"></script>
+    <link rel="stylesheet" href="css/style.css" />
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
-
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>The meta hounds</title>
+    <title>The meta holder</title>
     <meta name="description" content="Mint NFT" />
+    <style>
+      .mainbody {
+        height: 5000px;
+        background-color: #000;
+        color: #fff;
+        padding-top: 25px;
+      }
+    
+      .room1 {
+        padding: 0 100px;
+        width: 100%;
+        z-index: 1;
+      }
+    
+      .landing_logo {
+        height: 78px;
+      }
+    
+      .link0 {
+        margin: 0 10px;
+        padding-top: 16px;
+      }
+    
+      .linkicon {
+        font-size: 15px;
+      }
+    
+      .room2 {
+        padding: 0 105px;
+        margin-top: -43px;
+        width: 100%;
+      }
+    
+      .enterbtnboxA {
+        bottom: 0;
+        background-color: #000;
+        padding-top: 24px;
+      }
+    
+      .eboxA1txt1 {
+        font-family: var(--ffamily1);
+        font-style: italic;
+        font-weight: 800;
+        font-size: 27px;
+        padding-bottom: 16px;
+        padding-right: 50px;
+      }
+    
+      .eboxA2 {
+        writing-mode: vertical-rl;
+        text-orientation: mixed;
+        transform: rotateZ(180deg);
+        font-size: 11px;
+        font-weight: 700;
+        text-align: center;
+        padding: 40px;
+        animation: animatetext2 1.5s infinite;
+      }
+    
+      @keyframes animatetext2 {
+        0% {
+          opacity: 1;
+        }
+    
+        45% {
+          opacity: 0.25;
+        }
+    
+        65% {
+          opacity: 0.25;
+        }
+    
+        100% {
+          opacity: 1;
+        }
+      }
+    
+      .enterbtnA {
+        padding: 14px;
+        margin-bottom: 24px;
+        background-color: #bfc500;
+        color: #000;
+        border-radius: 8px;
+        font-weight: 700;
+        font-size: 16px;
+        text-align: center;
+      }
+    
+      @media only screen and (max-width: 450px) {
+        .enterbtnboxA {
+          display: none;
+        }
+      }
+    </style>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
+    
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
