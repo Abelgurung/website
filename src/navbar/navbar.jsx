@@ -8,7 +8,7 @@ const Navbar = ({goLanding2}) => {
     {id:1,name:"MINT",link:"#mint"},
     {id:2,name:"ROADMAP",link:"#roadmap"},
     {id:3,name:"TEAM",link:"#team"},
-    {id:4,name:"PROVENANCE"},
+    {id:4,name:"OWNERSHIP"},
   ];
   const [pages, updatepage] = useState([
     {

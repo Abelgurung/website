@@ -98,24 +98,21 @@ const Home = ({goLanding1}) => {
           </div>
         </div>
       </div>
-      <div className="hroom4 border flex">
-        <div className="ihroom4 flex jcsa border w100">
-          <div className="hr4box1 border flex jcc aic">
-            BUY AN APE
+      <div className="hroom5_2 hroom5 border flex">
+        <span className="hr5line_2 hr5line"></span>
+      </div>
+      <div className="hroom8 border flex jcsb">
+        <div className="hr8box1 flex fdc border">
+          <div id="mint" className="hr8b1txt1">
+            MINT
           </div>
-          <div className="hr4box2 border flex jcc aic">
-            The initial sale has sold out. To get your<br className='hr4br1'/>
-            Bored Ape, check out the collection on<br className='hr4br1'/>
-            OpenSea.
+          <div>
+            <App/>
           </div>
-          <div className="hr4box3 border">
-            <div className="buyappbtn border">
-              BUY AN APE ON<br className='hr4br2'/> 
-              OPENSEA
-            </div>
+          <div className="hr8b1txt2">
+            
           </div>
         </div>
-        
       </div>
       <div className="hroom5 border flex">
         <span className="hr5line"></span>
@@ -178,38 +175,9 @@ const Home = ({goLanding1}) => {
       <div className="hroom5_2 hroom5 border flex">
         <span className="hr5line_2 hr5line"></span>
       </div>
-      <div className="hroom8 border flex jcsb">
-        <div className="hr8box1 flex fdc border">
-          <div id="mint" className="hr8b1txt1">
-            MINT
-          </div>
-          <div>
-            <App/>
-          </div>
-          <div className="hr8b1txt2">
-            The BAYC Bathroom will become operational once the presale period is over. 
-            It contains a canvas accessible only to wallets containing at least one ape. 
-            Like any good dive bar bathroom, this is the place to draw, scrawl, or write expletives.
-            <br/>
-            <br/>
-            Each ape-holder will be able to paint a pixel on the bathroom wall every fifteen minutes. 
-            Think of it as a collaborative art experiment for the cryptosphere. 
-            A members-only canvas for the discerning minds of crypto twitter.
-            <br/>
-            <br/>
-            We're pretty sure it's going to be full of dicks.
-          </div>
-        </div>
-        <div className="hr8box2 border flex jcc">
-          <img src={toilet} alt="" className="toiletimg border" />
-        </div>
-      </div>
-      <div className="hroom5_3 hroom5 border flex">
-        <span className="hr5line_3 hr5line"></span>
-      </div>
       <div className="hroom9 border flex fdc">
         <div id="roadmap" className="hr9txt1 border">
-          ROADMAP ACTIVATIONS
+          ROADMAP
         </div>
         <div className="hr9txt2 border">
           <div className="ihr9txt2 border">
